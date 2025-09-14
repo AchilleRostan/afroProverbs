@@ -122,7 +122,7 @@ Chaque fichier JSON doit contenir les champs suivants :
 
 ## 👥 Rôles dans l’équipe
 
-- **Data** : collecte, traduction et validation des proverbes.  
+- **Data** : collecte, traduction et validation des proverbes (Avo,..).
 - **Dev** : implémentation et tests des fonctions R.  
 - **Doc** : rédaction README, vignette, exemples d’utilisation.  
 - **QA** : vérification des formats et revue finale.  
