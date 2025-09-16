@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cm1",
+    "language": "ewondo",
+    "country": "Cameroon",
+    "proverb_original": "Nna nkui me ngwè",
+    "translation_en": "The father does not forget his child",
+    "theme": "community",
+    "source": "oral"
+  },
+  {
+    "id": "cm2",
+    "language": "ewondo",
+    "country": "Cameroon",
+    "proverb_original": "A bû a mve",
+    "translation_en": "Unity is strength",
+    "theme": "unity",
+    "source": "oral"
+  },
+  {
+    "id": "cm3",
+    "language": "beti",
+    "country": "Cameroon",
+    "proverb_original": "Mekè mve a yé",
+    "translation_en": "Ask and you shall receive",
+    "theme": "wisdom",
+    "source": "oral"
+  },
+  {
+    "id": "cm4",
+    "language": "bassa",
+    "country": "Cameroon",
+    "proverb_original": "Nwana me njo",
+    "translation_en": "A child is a gift",
+    "theme": "community",
+    "source": "oral"
+  },
+  {
+    "id": "cm5",
+    "language": "ewondo",
+    "country": "Cameroon",
+    "proverb_original": "Mve mve n'a mè",
+    "translation_en": "Small things have big impacts",
+    "theme": "wisdom",
+    "source": "oral"
+  },
+  {
+    "id": "cm6",
+    "language": "bulu",
+    "country": "Cameroon",
+    "proverb_original": "A bô a ngwè",
+    "translation_en": "Every person has a responsibility",
+    "theme": "fate",
+    "source": "oral"
+  },
+  {
+    "id": "cm7",
+    "language": "ewondo",
+    "country": "Cameroon",
+    "proverb_original": "A yé a mve",
+    "translation_en": "Patience brings rewards",
+    "theme": "resilience",
+    "source": "oral"
+  },
+  {
+    "id": "cm8",
+    "language": "bassa",
+    "country": "Cameroon",
+    "proverb_original": "Nna ma mve",
+    "translation_en": "Life is a journey",
+    "theme": "fate",
+    "source": "oral"
+  },
+  {
+    "id": "cm9",
+    "language": "ewondo",
+    "country": "Cameroon",
+    "proverb_original": "Mvé mve a bô",
+    "translation_en": "One cannot hide the truth",
+    "theme": "wisdom",
+    "source": "oral"
+  },
+  {
+    "id": "cm10",
+    "language": "bulu",
+    "country": "Cameroon",
+    "proverb_original": "A bé a mè",
+    "translation_en": "Help one another",
+    "theme": "solidarity",
+    "source": "oral"
+  }
+]
