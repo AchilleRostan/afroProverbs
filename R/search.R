@@ -3,8 +3,7 @@
 #' Cette fonction permet de rechercher des proverbes selon différents filtres 
 #' et de choisir si la recherche s'effectue dans le texte original, dans la traduction,
 #' ou dans les deux.
-#'
-#' @param data data.frame ou tibble contenant les proverbes.
+#' 
 #' @param query Mot(s)-clé(s) à rechercher (optionnel).
 #' @param theme Thème du proverbe (optionnel).
 #' @param country Pays d'origine (optionnel).
@@ -15,19 +14,18 @@
 #' @examples
 #' @examples
 #' # Recherche simple par mot-clé
-#' ap_search(proverbs_core, query = "truth")
+#' ap_search(query = "truth")
 #'
 #' # Recherche par thème
-#' ap_search(proverbs_core, theme = "wisdom")
+#' ap_search(theme = "wisdom")
 #'
 #' # Recherche par mot-clé et pays
-#' ap_search(proverbs_core, query = "child", country = "Cameroon")
+#' ap_search(query = "child", country = "Cameroon")
 #'
-#' ap_search(proverbs_core, query = "enfant", search_original = TRUE, search_translation = FALSE)
-#' ap_search(proverbs_core, query = "truth", search_translation = TRUE)
+#' ap_search(query = "enfant", search_original = TRUE, search_translation = FALSE)
+#' ap_search(query = "truth", search_translation = TRUE)
 
-ap_search <- function(
-    data, 
+ap_search <- function( 
     query = NULL,
     theme = NULL,
     country = NULL,
@@ -35,7 +33,10 @@ ap_search <- function(
     search_original = TRUE,
     search_translation = TRUE
 ) {
-  results <- data
+  
+  # Charger les donnees
+  load("data/proverbs_core.rda")  
+  results <- proverbs_core
   
   # Recherche par mot-clé dans les colonnes choisies
   if (!is.null(query)) {
@@ -70,3 +71,4 @@ ap_search <- function(
       return(list(summary = summary, results = display_df))
   }
 } 
+ap_search(query = "truth")
