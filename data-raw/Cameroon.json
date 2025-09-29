@@ -1,5 +1,14 @@
 [
   {
+    "id": "idexemple",
+    "language": "exemplelangage",
+    "country": "Cameroon",
+    "proverb_original": "Ecrire le proverbe original",
+    "translation_en": "Ecrire sa traduction en anglais",
+    "theme": "ecrire le theme",
+    "source": "ecrire la source"
+  },
+  {
     "id": "cm1",
     "language": "ewondo",
     "country": "Cameroon",
